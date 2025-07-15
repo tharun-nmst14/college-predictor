@@ -17,6 +17,10 @@ This is a Flask web application that predicts suitable engineering colleges for 
 
 ---
 
+## ✅ Live Demo:
+
+https://college-predictor-wp3z.onrender.com
+ 
 ## 🗂️ Project Structure
 
 # index page
