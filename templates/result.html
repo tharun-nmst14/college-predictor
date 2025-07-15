@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Colleges</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Recommended Colleges</h2>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% else %}
+        <table border="1">
+            <tr>
+                <th>Institute</th>
+                <th>Place</th>
+                <th>Branch</th>
+                <th>Cutoff ({{ rank_col|upper }})</th>
+            </tr>
+            {% for row in tables %}
+            <tr>
+                <td>{{ row['institute'] }}</td>
+                <td>{{ row['place'] }}</td>
+                <td>{{ row['branch'] }}</td>
+                <td>{{ row[rank_col] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+    <br><a href="/">Search Again</a>
+</body>
+</html>
