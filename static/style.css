@@ -115,3 +115,78 @@ input[type="checkbox"] {
     color: #444;
     font-size: 14px;
 }
+
+/* Result Page Table */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    font-size: 15px;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Error Message */
+p {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffe5e5;
+    padding: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+/* "Search Again" Link */
+a {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+    margin: 25px auto;
+    width: fit-content;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer (shared across pages) */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+    margin-top: 40px;
+    color: #444;
+    font-size: 14px;
+}
+#copy{
+    color:black
+}
